@@ -38,7 +38,7 @@ const Home: NextPage = () => {
             <div className={styles.heroBody}>
               <h1 className={styles.heroTitle}>
                 <span className={styles.heroTitleGradient}>
-                  Build NFT Marketplaces
+                  Procontol NFT Marketplaces
                 </span>
                 <br />
                 faster than ever.
@@ -61,10 +61,10 @@ const Home: NextPage = () => {
                 </Link>
                 <Link
                   className={styles.secondaryCta}
-                  href="https://github.com/thirdweb-example/marketplace-v3"
+                  href="https://twitter.com/DonutsProtocol"
                   target="_blank"
                 >
-                  GitHub
+                  Join Us
                 </Link>
               </div>
             </div>
