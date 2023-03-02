@@ -63,9 +63,9 @@
 .navRight {
   display: flex;
   flex-direction: row;
-  gap: 16px;
   align-items: center;
-  justify-content: center;
+  gap: 16px;
+  transition: all 0.15s ease-in-out;
 }
 
 .profileImage {
@@ -90,6 +90,6 @@
 /* Sreens less than 720px */
 @media (max-width: 500px) {
   .navConnect {
-    display: none !important;
+  display: block;
   }
 }
